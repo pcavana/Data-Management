@@ -1,7 +1,7 @@
 # Data-Management
 Project for Data Management Course
 
-![00 Simpsonspedia Venticinquesima Stagione](https://user-images.githubusercontent.com/92382378/204278540-0bb06d59-4774-451e-b7d8-4d46b8ec8f91.jpg)
+![simpson-marvel-loki-disney](https://user-images.githubusercontent.com/92382378/204278976-e3f2294b-27af-4e99-8766-64f8f10381d9.jpg)
 
 -- Project status: [In Progress]
 
