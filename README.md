@@ -7,9 +7,11 @@ Project for Data Management Course
 
 ## About
 
+
+
 Technologies:
 
-- Web Scraping with Selenium
+- Web Scraping
 
 
 ## Contributing Members
