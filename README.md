@@ -5,12 +5,13 @@ Project for Data Management Course
 
 -- Project status: [In Progress]
 
+The database can be found at the repository https://github.com/EdoF0/simpsons-db
+
 ## About
 
 Technologies:
 
 - Web Scraping with Selenium
-
 
 ## Contributing Members
 
