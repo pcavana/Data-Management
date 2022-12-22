@@ -145,7 +145,15 @@ def handleP(soup:bs):
         # replace_with accept an arbitrary number of parameters
         # *p.contents expands the array of contents
         # this way replace_with will receive the list of elements and not a list containing the list of elements
-        p.replace_with(*p.contents)
-        if isinstance(soup.contents[i], bs4.element.NavigableString):
-            mergeStringElement(soup, i)
+        if len(p.contents) > 0:
+            p.replace_with(*p.contents)
+            if isinstance(soup.contents[i], bs4.element.NavigableString):
+                mergeStringElement(soup, i)
+        else:
+            p.decompose()
+            # i-1 because if p was the last element of soup, i is out of range
+            if isinstance(soup.contents[i-1], bs4.element.NavigableString):
+                # left=False because the element i-2 is not adjacent to p, so it must not be modified
+                mergeStringElement(soup, i-1, left=False)
+        print(soup.prettify())
 
