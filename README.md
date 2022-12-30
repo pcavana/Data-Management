@@ -11,7 +11,8 @@ The database can be found at the repository https://github.com/EdoF0/simpsons-db
 
 Technologies:
 
-- Web Scraping with Selenium
+- Python
+- PostgreSQL
 
 ## Contributing Members
 
