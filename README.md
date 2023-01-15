@@ -7,6 +7,10 @@ Project for Data Management Course
 
 The database can be found at the repository https://github.com/EdoF0/simpsons-db
 
+The Fandom character scraper can be found at the repository https://github.com/EdoF0/simpsons-characters-scraper
+
+The IMDb episode scraper can be found at the repository https://github.com/jultsmbl/IMDd_Scraper
+
 ## About
 
 Technologies:
